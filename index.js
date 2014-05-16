@@ -16,7 +16,7 @@ Samples = (function() {
 
     var sampleFileData = fs.readFileSync(sampleFilePath, 'utf-8');
 
-    jsonData = JSON.parse(sampleFileData);
+    var jsonData = JSON.parse(sampleFileData);
     return jsonData;
   }
 
