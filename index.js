@@ -17,6 +17,8 @@ Samples = (function() {
     jsonData = JSON.parse(sampleFileData);
     return jsonData;
   }
+
+  return Samples;
 })();
 
 module.exports = new Samples()
