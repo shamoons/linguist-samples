@@ -2,6 +2,8 @@ var fs = require('fs');
 var path = require('path');
 
 Samples = (function() {
+  function Samples() {}
+
   Samples.prototype.readFile = function(filePath) {
     var fileData = fs.readFileSync(path.join(__dirname, 'samples', filePath), 'utf-8');
     return fileData
