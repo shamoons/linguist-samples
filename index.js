@@ -10,7 +10,7 @@ Samples = (function() {
   }
 
   Samples.prototype.loadSampleFile = function(sampleFilePath) {
-    if(sampleFilePath === null) {
+    if(sampleFilePath === null || sampleFilePath === undefined) {
       sampleFilePath = path.join(__dirname, 'samples.json');
     }
 
