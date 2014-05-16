@@ -23,4 +23,4 @@ Samples = (function() {
   return Samples;
 })();
 
-module.exports = new Samples()
+module.exports = new Samples();

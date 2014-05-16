@@ -1,6 +1,6 @@
 {
   "name": "linguist-samples",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Samples for the linguist.js project",
   "main": "index.js",
   "scripts": {
