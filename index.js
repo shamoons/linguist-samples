@@ -4,6 +4,7 @@ var path = require('path');
 Samples = (function() {
   Samples.prototype.readFile = function(filePath) {
     var fileData = fs.readFileSync(path.join(__dirname, 'samples', filePath), 'utf-8');
+    return fileData
   }
 
   Samples.prototype.loadSampleFile = function(sampleFilePath) {
@@ -14,6 +15,7 @@ Samples = (function() {
     var sampleFileData = fs.readFileSync(sampleFilePath, 'utf-8');
 
     jsonData = JSON.parse(sampleFileData);
+    return jsonData;
   }
 })();
 
